@@ -1,0 +1,28 @@
+{
+  "name": "tldr-to-json",
+  "version": "1.0.0",
+  "description": "Parses the tldr pages and outputs json for consumption.",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egilkh/tldr-to-json.git"
+  },
+  "keywords": [
+    "tldr"
+  ],
+  "author": "egilkh <egilkh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egilkh/tldr-to-json/issues"
+  },
+  "homepage": "https://github.com/egilkh/tldr-to-json#readme",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "marked": "^0.3.3",
+    "walk": "^2.3.9"
+  }
+}
